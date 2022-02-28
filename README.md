@@ -15,9 +15,9 @@ PUBLIC_KEY = "your-metamask-wallet-account-PUBLIC-address"
 * Part-2 <https://docs.alchemyapi.io/alchemy/tutorials/how-to-write-and-deploy-a-nft-smart-contract/how-to-mint-a-nft>
 * Part-3 <https://docs.alchemyapi.io/alchemy/tutorials/how-to-write-and-deploy-a-nft-smart-contract/how-to-view-your-nft-in-your-wallet>
 
-Folder location ```/Users/ajay/Blockchain/web3.university/Alchemy/my-nft```
 
-### Activity Codes
+### Activity Codes & Logs
+
 ```
 ajay@Ajays-MacBook-Pro my-nft % npm init
 This utility will walk you through creating a package.json file.

@@ -19,7 +19,7 @@ PUBLIC_KEY = "your-metamask-wallet-account-PUBLIC-address"
 ### Activity Codes & Logs
 
 ```
-ajay@Ajays-MacBook-Pro my-nft % npm init
+my-nft % npm init
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -39,7 +39,7 @@ git repository:
 keywords: 
 author: 
 license: (ISC) 
-About to write to /Users/ajay/Blockchain/web3.university/Alchemy/my-nft/package.json:
+About to write to /Users/ajyku/Blockchain/web3.university/Alchemy/my-nft/package.json:
 
 {
   "name": "my-nft",
@@ -59,7 +59,7 @@ Is this OK? (yes)
 
 
 ```
-ajay@Ajays-MacBook-Pro my-nft % npm install --save-dev hardhat
+my-nft % npm install --save-dev hardhat
 npm WARN deprecated fsevents@2.1.3: "Please update to latest v2.3 or v2.2"
 npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
 
@@ -76,7 +76,7 @@ To address all issues, run:
 Run `npm audit` for details.
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % npx hardhat
+my-nft % npx hardhat
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
@@ -92,13 +92,13 @@ ajay@Ajays-MacBook-Pro my-nft % npx hardhat
 ✨ Config file created ✨
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % mkdir contracts
+my-nft % mkdir contracts
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % mkdir scripts
+my-nft % mkdir scripts
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % npm install @openzeppelin/contracts@3.1.0-solc-0.7
+my-nft % npm install @openzeppelin/contracts@3.1.0-solc-0.7
 
 added 1 package, and audited 340 packages in 7s
 
@@ -113,7 +113,7 @@ To address all issues (including breaking changes), run:
 Run `npm audit` for details.
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % npm install dotenv --save
+my-nft % npm install dotenv --save
 
 added 1 package, and audited 341 packages in 3s
 
@@ -128,7 +128,7 @@ To address all issues (including breaking changes), run:
 Run `npm audit` for details.
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+my-nft % npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
 
 added 17 packages, and audited 358 packages in 5s
 
@@ -143,7 +143,7 @@ a different dependency.
 Run `npm audit` for details.
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % npx hardhat compile
+my-nft % npx hardhat compile
 Downloading compiler 0.7.3
 Compiling 16 files with 0.7.3
 contracts/MyNFT.sol:14:5: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
@@ -153,9 +153,9 @@ contracts/MyNFT.sol:14:5: Warning: Visibility for constructor is ignored. If you
 Solidity compilation finished successfully
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % npx hardhat run scripts/deploy.js --network ropsten
+my-nft % npx hardhat run scripts/deploy.js --network ropsten
 Contract deployed to address: 0x7c97666d1d898684757F1DF14585a647Ca0c5D65
 ```
 ```
-ajay@Ajays-MacBook-Pro my-nft % node scripts/mint-nft.js
+my-nft % node scripts/mint-nft.js
 Transaction receipt: ```javascript{"transactionHash":"0x0d45762a0d96fcf97aae888cd9613907dd9935a854aa6008bbe490e2ab038eb4","blockHash":"0xa8c13326a48a71dded3c1a757b3262020974a481f088310ac2e368928696b772","blockNumber":12023319,"contractAddress":null,"cumulativeGasUsed":317409,"effectiveGasPrice":"0xb2d05e02","from":"0x6a7ae043f469a583b569776714b0d9a1af9a5457","gasUsed":296409,"logs":[{"address":"0x7c97666d1d898684757F1DF14585a647Ca0c5D65","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000000000000000000000000000000000000000000","0x0000000000000000000000006a7ae043f469a583b569776714b0d9a1af9a5457","0x0000000000000000000000000000000000000000000000000000000000000001"],"data":"0x","blockNumber":12023319,"transactionHash":"0x0d45762a0d96fcf97aae888cd9613907dd9935a854aa6008bbe490e2ab038eb4","transactionIndex":1,"blockHash":"0xa8c13326a48a71dded3c1a757b3262020974a481f088310ac2e368928696b772","logIndex":0,"removed":false,"id":"log_780bef8b"}],"logsBloom":"0x00000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000008000000000000000000040000000000000000000000000000020000000000000000000800000000000000000000000010000000000000200000000000000000000000000000000000008000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000002000000000080000040000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000","status":true,"to":"0x7c97666d1d898684757f1df14585a647ca0c5d65","transactionIndex":1,"type":"0x2"}```

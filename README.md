@@ -10,9 +10,10 @@ PUBLIC_KEY = "your-metamask-wallet-account-PUBLIC-address"
 ```
 
 ### Reference
-Part-1 https://www.web3.university/article/how-to-create-an-nft
-Part-2 https://docs.alchemyapi.io/alchemy/tutorials/how-to-write-and-deploy-a-nft-smart-contract/how-to-mint-a-nft
-Part-3 https://docs.alchemyapi.io/alchemy/tutorials/how-to-write-and-deploy-a-nft-smart-contract/how-to-view-your-nft-in-your-wallet
+
+* Part-1 <https://www.web3.university/article/how-to-create-an-nft>
+* Part-2 <https://docs.alchemyapi.io/alchemy/tutorials/how-to-write-and-deploy-a-nft-smart-contract/how-to-mint-a-nft>
+* Part-3 <https://docs.alchemyapi.io/alchemy/tutorials/how-to-write-and-deploy-a-nft-smart-contract/how-to-view-your-nft-in-your-wallet>
 
 Folder location ```/Users/ajay/Blockchain/web3.university/Alchemy/my-nft```
 
